@@ -85,7 +85,7 @@ jQuery.event.special.click = {
                     });
                 }
                 
-                // set event type and target
+                // set and target
                 e.target = link[0];
                 e.targetData = {
                     href: href,
